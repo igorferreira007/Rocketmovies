@@ -1,8 +1,12 @@
-# React + Vite
+# Rocketmovies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desafio proposto pela Rocketseat na formação Full-Stack. O RocketMovies é um projeto para criar e gerenciar anotações sobre filmes.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML
+- CSS
+- ReactJS
+
+## Link
+Projeto publicado em: https://igorferreira007.github.io/Rocketmovies/
