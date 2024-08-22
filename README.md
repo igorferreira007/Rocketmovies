@@ -8,3 +8,4 @@ Desafio proposto pela Rocketseat na formação Full-Stack. O RocketMovies é um 
 - CSS
 - ViteJS
 - ReactJS
+- Styled Components
