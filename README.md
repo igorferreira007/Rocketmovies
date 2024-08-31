@@ -9,3 +9,7 @@ Desafio proposto pela Rocketseat na formação Full-Stack. O RocketMovies é um 
 - ViteJS
 - ReactJS
 - Styled Components
+
+## API
+
+Link do repositório da API: https://github.com/igorferreira007/Movie-Notes
