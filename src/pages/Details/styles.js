@@ -31,6 +31,7 @@ export const Content = styled.div`
     overflow-y: auto;
     margin-top: 2.4rem;
     padding-right: 1.6rem;
+    padding-bottom: 3.2rem;
 
     .wrapper-paragraph {
       margin-top: 4rem;
@@ -52,6 +53,7 @@ export const Content = styled.div`
       border-radius: 20px;
     }
   }
+
 `
 
 export const WrapperTitle = styled.div`
@@ -73,8 +75,8 @@ export const NoteDetails = styled.div`
   align-items: center;
 
   > img {
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 2.4rem;
+    height: 2.4rem;
     border-radius: 50%;
   }
 

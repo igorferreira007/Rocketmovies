@@ -37,11 +37,11 @@ export const Profile = styled.div`
     }
 
     strong,
-    span {
+    a {
       font-size: 1.4rem;
     }
 
-    span {
+    a {
       color: ${({ theme }) => theme.COLORS.BACKGROUND_PLACEHOLDER};
     }
   }
