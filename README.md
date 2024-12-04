@@ -46,15 +46,15 @@ RocketMovies é uma aplicação web para os amantes de cinema. Com ela, é poss�
 - SQLite3.
 
 ### 1. Clone o repositório:
-    ```  
+    ```
     bash
     Frontend
-    git clone https://github.com/igorferreira007/Rocketmovies
+    git clone https://github.com/igorferreira007/Rocketmovies  
 
-    ```  
+    ```
     bash
     Backend
-    git clone https://github.com/igorferreira007/Movie-Notes
+    git clone https://github.com/igorferreira007/Movie-Notes  
 
 2. Configuração do Backend:
 
