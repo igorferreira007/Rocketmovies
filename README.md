@@ -60,6 +60,8 @@ git clone https://github.com/igorferreira007/Movie-Notes
 
 #### Configuração do Backend:
 
+Respositório do backend: https://github.com/igorferreira007/Movie-Notes
+
 Instale as dependências:
 
 ````
