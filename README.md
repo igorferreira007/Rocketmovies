@@ -47,8 +47,10 @@ RocketMovies é uma aplicação web para os amantes de cinema. Com ela, é poss�
 
 ### 1. Clone o repositório:
 
-    ```Frontend
+    ````
+    Frontend
     git clone https://github.com/igorferreira007/Rocketmovies
+    ````
 
 
     ```Backend
