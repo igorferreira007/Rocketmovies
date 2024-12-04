@@ -58,31 +58,36 @@ Backend
 git clone https://github.com/igorferreira007/Movie-Notes
 ````
 
-2. Configuração do Backend:
+#### Configuração do Backend:
 
 Instale as dependências:
 
-    ```
-    npm install
+````
+npm install
+````
 
 Configure o banco de dados SQLite com Knex:
 
-    ```
-    npx knex migrate:latest
+````
+npx knex migrate:latest
+````
 
 Inicie o servidor:
 
-    ```
-    npm run dev
+````
+npm run dev
+````
 
-3. Configuração do Frontend:
+#### Configuração do Frontend:
 
 Instale as dependências:
 
-    ```
-    npm install
+````
+npm install
+````
 
 Inicie o servidor de desenvolvimento:
 
-    ```
-    npm run dev
+````
+npm run dev
+````
