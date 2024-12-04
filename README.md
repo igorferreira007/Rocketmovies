@@ -53,8 +53,10 @@ git clone https://github.com/igorferreira007/Rocketmovies
 ```
 
 
-    ```Backend
-    git clone https://github.com/igorferreira007/Movie-Notes
+````
+Backend
+git clone https://github.com/igorferreira007/Movie-Notes
+````
 
 2. Configuração do Backend:
 
