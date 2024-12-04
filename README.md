@@ -51,7 +51,6 @@ RocketMovies é uma aplicação web para os amantes de cinema. Com ela, é poss�
     Frontend
     git clone https://github.com/igorferreira007/Rocketmovies
 
-
     ```
     bash
     Backend
