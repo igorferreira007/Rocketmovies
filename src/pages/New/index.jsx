@@ -26,12 +26,12 @@ export function New() {
   }
 
   function handleAddTag() {
-    setTags(prevState => [...prevState, newTag])
+    setTags((prevState) => [...prevState, newTag])
     setNewTag("")
   }
 
   function handleRemoveTag(deleted) {
-    setTags(prevState => prevState.filter(tag => tag !== deleted))
+    setTags((prevState) => prevState.filter((tag) => tag !== deleted))
   }
 
   async function handleNewNote() {
@@ -49,7 +49,7 @@ export function New() {
       title,
       description,
       rating,
-      tags
+      tags,
     })
 
     alert("Nota criada com sucesso!")
@@ -72,44 +72,42 @@ export function New() {
               </legend>
 
               <div className="col-2">
-                <Input 
-                  placeholder="Título" 
-                  onChange={e => setTitle(e.target.value)}
+                <Input
+                  placeholder="Título"
+                  onChange={(e) => setTitle(e.target.value)}
                 />
 
-                <Input 
-                  placeholder="Sua nota (de 0 a 5)" 
-                  type="number" 
-                  step="1" 
-                  min="0" 
-                  max="5" 
-                  onChange={e => setRating(Number(e.target.value))}
+                <Input
+                  placeholder="Sua nota (de 0 a 5)"
+                  type="number"
+                  step="1"
+                  min="0"
+                  max="5"
+                  onChange={(e) => setRating(Number(e.target.value))}
                 />
               </div>
 
-              <Textarea 
-                placeholder="Observações" 
-                onChange={e => setDescription(e.target.value)}
+              <Textarea
+                placeholder="Observações"
+                onChange={(e) => setDescription(e.target.value)}
               />
 
               <Highlighters>
                 <h3>Marcadores</h3>
 
                 <div className="wrapper-notesitem">
-                  {
-                    tags.map((tag, index) => (
-                      <NoteItem
-                        key={String(index)}
-                        value={tag}
-                        onClick={() => handleRemoveTag(tag)}
-                      />
-                    ))
-                  }
-                  <NoteItem 
-                    placeholder="Novo marcador" 
-                    isNew 
+                  {tags.map((tag, index) => (
+                    <NoteItem
+                      key={String(index)}
+                      value={tag}
+                      onClick={() => handleRemoveTag(tag)}
+                    />
+                  ))}
+                  <NoteItem
+                    placeholder="Novo marcador"
+                    isNew
                     value={newTag}
-                    onChange={e => setNewTag(e.target.value)}
+                    onChange={(e) => setNewTag(e.target.value)}
                     onClick={handleAddTag}
                   />
                 </div>
